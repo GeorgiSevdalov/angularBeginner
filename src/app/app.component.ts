@@ -13,4 +13,6 @@ export class AppComponent {
     }
     return b;
   }
+
+  todaysDate = new Date();
 }

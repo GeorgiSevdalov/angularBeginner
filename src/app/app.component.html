@@ -1,2 +1,17 @@
-<app-parent></app-parent>
-the lower digit is : {{getMin(5,3)}}
+<div>
+    <p class="title">&#8595; CHILD TO PARENT: USING OUTPUT DECORATOR </p>
+    <app-parent></app-parent>
+</div>
+
+<div>
+    <p class="title">&#8595; TEXT INTERPOLATION</p>
+    <p>
+        the lower digit is : {{getMin(5,3)}}
+    </p>
+</div>
+<div>
+    <p class="title">&#8595; DATA PIPE </p>
+    <p>
+        date info: {{todaysDate | date : 'long'}}
+    </p>
+</div>
